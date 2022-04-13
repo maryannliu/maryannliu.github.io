@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/maryannliu/maryannliu.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final Project</title>
+</head>
+<body>
+	<h1>Mary Ann Liu</h1>
+	<nav>
+		<a target="_blank" href="https://medium.com/@maryannliu01">One</a>
+		<a target="_blank" href="https://www.instagram.com/jotdowntaiwan/?hl=en">Two</a>
+		<a target="_blank" href="https://www.instagram.com/mhc0718/?hl=en">Three</a>
+		<a target="_blank" href="https://www.netflix.com/tw-en/title/81145024">My Favorite Show</a>
+	</nav>
+	
+	<h2>Favorite Food</h2>
+	<ul>
+		<li>Pizza</li>
+		<li>Sushi</li>
+		<li>Bananas</li>
+		<li>Apples</li>
+	</ul>
+	
+	<h2>Achievements</h2>
+	<label>Progress in this Course (100%)</label>
+	<progress value=100 max=100>100%</progress>
+	<br>
+	<label>Progress in the Specialization Capstone (20%)</label>
+	<progress  value=20 max=100>20%</progress>
+	<br>
+	<label>Progress in Becoming a Web Designer (10%)</label>
+	<progress value=10 max=100>10%</progress> 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+	<h2>More About Me</h2>
+	<details>
+		<summary>My Childhood</summary>
+		<p>I grew up in a somewhat remote area of the country. When I was in high school, there were only 6 students in my class</p>
+	</details>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maryannliu/maryannliu.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<footer>
+	<img src="newlogo.png" alt="logo of Webdesign for Everybody">
+	<p>This page was created by Mary Ann Liu and Colleen van Lent. To learn more about web design, visit 
+	<a target="_blank" href="https://intro-webdesign.com/">Intro to Web Design</a>
+	</p>
+</footer>
+</body>
+</html>
